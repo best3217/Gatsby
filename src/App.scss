@@ -3,12 +3,16 @@
   padding-bottom: 2rem;
 }
 
+header {
+  border-bottom: 1px solid #6a6a6a78;
+}
+
 .connect-btn {
   border: 2px solid #ffc112e6;
   color: #ffc112e6;
 }
 
-.project {
+.features {
   position: relative;
   width: 1180px;
   z-index: 1;
@@ -17,14 +21,23 @@
 }
 
 @media (max-width: 1180px) {
-  .project {
+  .features {
     width: 95%;
   }
 }
 
-.project-header {
+.features-header {
+  border-top: 1px solid #23304e;
+  border-bottom: 1px solid #23304e;
+
   .top-bar-nav {
     li {
+      height: 100%;
+      display: flex;
+      align-items: center;
+      padding: 0 15px;
+      border-left: 1px solid #23304e;
+
       a {
         text-decoration: none;
         color: #ffc112e6;
@@ -53,4 +66,21 @@ ul {
 
 .price-down {
   color: #f36c6c;
+}
+
+.wallet-address {
+  text-overflow: ellipsis;
+  overflow: hidden;
+}
+
+iframe {
+  display: none;
+}
+
+.selected-option {
+  background-color: #e6a41c;
+}
+
+.border-right {
+  border-right: 1px solid #23304e;
 }
