@@ -1,0 +1,56 @@
+.App {
+  background-color:#001321;
+  padding-bottom: 2rem;
+}
+
+.connect-btn {
+  border: 2px solid #ffc112e6;
+  color: #ffc112e6;
+}
+
+.project {
+  position: relative;
+  width: 1180px;
+  z-index: 1;
+  border: 1.5rem solid #23304e;
+  border-radius: 40px;
+}
+
+@media (max-width: 1180px) {
+  .project {
+    width: 95%;
+  }
+}
+
+.project-header {
+  .top-bar-nav {
+    li {
+      a {
+        text-decoration: none;
+        color: #ffc112e6;
+      }
+    }
+  }
+}
+
+.widget {
+  background-color: #14192c;
+}
+
+ul {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+.widget-title {
+  font-size: 14px;
+}
+
+.price-up {
+  color: #8cb58c;
+}
+
+.price-down {
+  color: #f36c6c;
+}
