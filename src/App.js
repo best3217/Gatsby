@@ -102,7 +102,7 @@ function App() {
             className="mb-0"
           />
         </div>
-        <h4 className="mb-0 fw-normal"><FontAwesomeIcon icon={faBars} className="mx-2" />0.1 for 6 months</h4>
+        <h4 className="mb-2 fw-normal"><FontAwesomeIcon icon={faBars} className="mx-2" />0.1 for 6 months</h4>
         <h4 className="mb-0 fw-normal">Sign Up With MetaMask <img src="./metamask.svg" width="35" alt="metamask" />!</h4>
       </div>
 
